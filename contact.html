@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tomi Färm portfolio</title>
+        <link rel="shortcut icon" href="http://wikipedia.com/static/favicon/wikipedia.ico">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <!-- Add logo here -->
+            <img src="img/Logo.png" alt="Logo Tomi Färm" class="page-header__item">
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact</h1>
+        </main>
+
+        <main>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">*E-mail: </label>
+                <input type="email" id="contact-email" required>
+
+                <label class="standard-label" for="contact-number">Telephone: </label>
+                <input type="tel" id="contact-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+                <label class="standard-label" for="contact-message">*Message (maximum 240 characters): </label>
+                <textarea maxlength="240" id="contact-message" required></textarea>
+
+                <input type="submit" value="Send message">
+            </form>
+
+        </main>
+
+        <main>
+            Tomi Färm<br>
+            Winsstr. 15<br>
+            10405 Berlin<br>
+            Deutschland<br>
+            Tel <a href="tel:+4915254706681">+49 152 5470 6681</a><br>
+            <a href="mailto:tomifarm@hotmail.com">tomifarm(at)hotmail(dot)com</a>
+        </main>
+
+        <footer>
+            <a href="mailto:tomifarm@hotmail.com">Contact me!</a>
+        </footer>
+        
+        <script src="js/tota11y.min.js"></script>
+    </body>
+
+</html>
