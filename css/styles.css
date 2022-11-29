@@ -167,6 +167,15 @@ button:hover, button:focus, .button:hover, .button:focus {
     }
 }
 
+.contact-form-input-wrapper {
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
 .page-footer {
     clear: both;
     display: flex;
