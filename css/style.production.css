@@ -166,6 +166,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     width: 100%;
 }
 
+.grid__item img {
+    width: 100%;
+}
+
 @supports (display: grid) {
     .grid {
         display: -ms-grid;
