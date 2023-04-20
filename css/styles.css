@@ -145,10 +145,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* end grid fallback */
 
-.work-image {
-    width: 100%;
-}
-
 @supports (display: grid) {
     .grid {
         display: grid;

@@ -162,7 +162,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* end grid fallback */
 
-.work-image {
+.grid__item img {
     width: 100%;
 }
 
